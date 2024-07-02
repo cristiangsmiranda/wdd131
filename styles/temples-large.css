@@ -1,15 +1,19 @@
 @media screen and (min-width: 800px) {
     .container {
-        max-width: 1200px;
+        max-width: 100%;
         margin: 0 auto;
         width: 100%;
-        padding: 0 20px;
     }
 
     .temple-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+    }
+    
+    .temple-grid img {
+        max-width: 100%;
+        height: auto;
     }
 
     .temple-grid figure {

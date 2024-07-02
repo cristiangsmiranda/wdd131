@@ -4,6 +4,7 @@
 }
 
 body {
+    background-color: #f2f2f2;
     font-family: var(--paragraph-font);
     margin: 0;
     padding: 0;
@@ -15,24 +16,23 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    border-radius: 2px 2px 0 0;
     width: 100%;
-    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
     align-self: flex-start;
-    padding: 0 20px;
-    color: #000000;
+    color: #ffffff;
+    padding-left: 30px;
 }
 
 header {
-    background-image: linear-gradient(to top right, #fff09a, #90dcff, #7aadff, #ffefae);
+    background-color: #4d0674;
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    padding: 10px;
     border-bottom: 1px solid #000000;
     width: 100%;
 }
@@ -44,9 +44,9 @@ header {
 }
 
 .navigation a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
-    padding: 5px 10px;
+    padding-right: 30px;
     transition: background-color 0.3s ease;
 }
 
@@ -61,19 +61,25 @@ header {
     font-size: 1.5rem;
     border: 0;
     background: none;
-    color: #000000;
+    color: #ffffff;
     position: fixed;
+    align-items: center;
     top: 10px;
     right: 10px;
     z-index: 1000;
+    cursor: pointer;
 }
 
 #menu::before {
     content: "☰";
+    color: #ffffff;
+
 }
 
 #menu.open::before {
     content: "X";
+    color: #ffffff;
+
 }
 
 .temple-gallery {
@@ -102,7 +108,7 @@ header {
 .temple-grid img {
     max-width: 100%;
     height: auto;
-    display: block;
+    align-content: center;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -110,16 +116,17 @@ header {
 figcaption {
     margin-top: 10px;
     font-size: 16px;
+    color: #4d0674;
+
 }
 
 footer {
-    background-image: linear-gradient(to top right, #fff09a, #90dcff, #7aadff, #ffefae);
-    color: #000000;
-    padding: 10px 0;
+    background-color: #4d0674;
+    color: #ffffff;
     text-align: center;
     border-radius: 2px 2px 0 0;
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -133,18 +140,23 @@ footer {
         top: 60px;
         left: 0;
         width: 100%;
-        background-image: linear-gradient(to top right, #fff09a, #90dcff, #7aadff, #ffefae);
+        background-color: #4d0674;
         z-index: 999;
         padding: 20px;
-        box-shadow: 0px 4px 8px #e3e011;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .navigation.open {
         display: flex;
     }
     
+    .navigation a {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
     #menu {
         display: block;
     }
-
 }
