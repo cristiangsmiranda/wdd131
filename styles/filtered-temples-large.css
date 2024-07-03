@@ -1,0 +1,23 @@
+@media screen and (min-width: 1200px) {
+    .temple-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 700px) {
+    .temple-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .temple-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
