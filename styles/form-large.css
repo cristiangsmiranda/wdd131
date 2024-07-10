@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 70%;
+    }
+
+    fieldset {
+        max-width: 70%;
+    }
+
+    input[type="text"],
+    textarea {
+        margin-left: 0;
+    }
+
+    div,
+    label,
+    input[type="submit"] {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    fieldset {
+        max-width: 90%;
+    }
+}

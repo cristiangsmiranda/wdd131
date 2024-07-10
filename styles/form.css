@@ -1,0 +1,124 @@
+:root {
+    --paragraph-font: 'Roboto', sans-serif;
+    --primary-color: #0e9fe2;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    border-radius: 2px 2px 0 0;
+    width: 100%;
+    max-width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    align-self: center;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #410a4d;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(138, 138, 138, 0.1);
+    width: 100%;
+}
+
+fieldset {
+    background-color: #dfd7dfba;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 48%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset input[type="radio"] {
+    margin-top: 5px; /* Espaçamento entre o label e as estrelas */
+}
+
+fieldset label[for^="star"] {
+    display: inline-flex; /* Coloca os labels em linha */
+    flex-direction: column; /* Organiza as estrelas em coluna */
+    align-items: center; /* Centraliza o conteúdo */
+    margin-left: 40px; /* Espaçamento entre os labels */
+}
+
+label[for="feature1"], label[for="feature2"], label[for="feature3"], label[for="feature4"] {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+select,
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    font-weight: bold;
+}
+
+textarea{
+    margin-left: 50px;
+}
+
+input[type="text"]{
+    margin-left: 50px;
+}
+
+div {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+label {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #fff1f1;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #410a4d;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 2px 2px 0 0;
+    border: 1px solid rgba(138, 138, 138, 0.1);
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+}
