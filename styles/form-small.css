@@ -58,7 +58,8 @@
     
     fieldset input[type="radio"] {
         margin-left: 5px;
-        margin-top: 10px; /* Espaçamento entre o label e as estrelas */
+        margin-top: 0 auto; /* Espaçamento entre o label e as estrelas */
+        
     }
     
     fieldset label[for^="star"] {
@@ -66,10 +67,11 @@
         flex-direction: column; /* Organiza as estrelas em coluna */
         align-items: center; /* Centraliza o conteúdo */
         margin-left: 5px; /* Espaçamento entre os labels */
+        margin-top: 10px;
     }
 
     select {
-        margin-left: 5x;
+        margin-left: 5px;
     }        
 
     label[for="feature1"], label[for="feature2"], label[for="feature3"], label[for="feature4"] {
@@ -92,7 +94,7 @@
         border-radius: 5px;
         box-sizing: border-box; /* Garante que o padding não afete a largura total */
         font-weight: bold;
-        margin-left: 5x;
+        margin-left: 5px;
     }
     
     textarea{
@@ -134,6 +136,11 @@
         color: #000000;
     }
     
+    #optional-note {
+        color: blue;
+        font-size: smaller;
+    }
+
     #visits {
         color: navy;
         font-weight: bolder;

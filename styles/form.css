@@ -56,13 +56,14 @@ fieldset {
 
 fieldset input[type="radio"] {
     margin-top: 5px; /* Espaçamento entre o label e as estrelas */
+    margin: 0 auto;
 }
 
 fieldset label[for^="star"] {
     display: inline-flex; /* Coloca os labels em linha */
     flex-direction: column; /* Organiza as estrelas em coluna */
     align-items: center; /* Centraliza o conteúdo */
-    margin-left: 40px; /* Espaçamento entre os labels */
+    margin-left: 50px; /* Espaçamento entre os labels */
 }
 
 select {
@@ -129,6 +130,11 @@ span[class="label"] {
     text-align: center;
     font-weight: bolder;
     color: #000000;
+}
+
+#optional-note {
+    color: blue;
+    font-size: smaller;
 }
 
 #visits {
