@@ -137,6 +137,12 @@ span[class="label"] {
     font-size: smaller;
 }
 
+#optional-note2 {
+    color: blue;
+    font-size: smaller;
+}
+
+
 #visits {
 	color: navy;
 	font-weight: bolder;

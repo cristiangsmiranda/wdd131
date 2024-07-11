@@ -58,7 +58,7 @@
     
     fieldset input[type="radio"] {
         margin-left: 5px;
-        margin-top: 0 auto; /* Espaçamento entre o label e as estrelas */
+        margin-top: 1px; /* Espaçamento entre o label e as estrelas */
         
     }
     
@@ -140,6 +140,12 @@
         color: blue;
         font-size: smaller;
     }
+
+    #optional-note2 {
+        color: blue;
+        font-size: smaller;
+    }
+
 
     #visits {
         color: navy;
