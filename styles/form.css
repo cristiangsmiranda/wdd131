@@ -36,8 +36,15 @@ header {
     width: 100%;
 }
 
+h2 {
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 fieldset {
-    background-color: #dfd7dfba;
+    background-color: #d5f9f9ba;
     border-radius: 10px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -58,6 +65,10 @@ fieldset label[for^="star"] {
     margin-left: 40px; /* Espaçamento entre os labels */
 }
 
+select {
+margin-left: 50px;
+}
+
 label[for="feature1"], label[for="feature2"], label[for="feature3"], label[for="feature4"] {
     display: block;
     margin-bottom: 10px;
@@ -68,6 +79,7 @@ label[for="feature1"], label[for="feature2"], label[for="feature3"], label[for="
 select,
 input[type="text"],
 input[type="date"],
+input[type="installationDate"],
 textarea {
     width: 100%;
     max-width: 500px;
@@ -77,6 +89,7 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box; /* Garante que o padding não afete a largura total */
     font-weight: bold;
+    margin-left: 50px;
 }
 
 textarea{
@@ -110,6 +123,19 @@ input[type="submit"] {
     color: #000000;
     font-weight: bold;
     margin-left: 50px;
+}
+
+span[class="label"] {
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+    text-align: center;
 }
 
 footer {
