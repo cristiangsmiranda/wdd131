@@ -13,7 +13,7 @@
 
 body {
     text-align: center;
-    background-color: #e3e7bf; /* Secondary Color */
+    background-color: #ffffff; /* Secondary Color */
     color: #044e5d; /* Primary Color */
     margin: 0;
     padding: 0;
@@ -99,10 +99,6 @@ nav.home {
     justify-content: center; /* centraliza os itens horizontalmente */
 }
 
-nav.home .box {
-    margin: 0 10px;
-}
-
 nav a {
     color: #044e5d;
     text-decoration: none;
@@ -116,90 +112,68 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.home-hero {
-    position: relative;
-    width: 100%;
-    height: 500px;
-}
-
-.home-hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.home-hero-message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 18px;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.newsletter {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.newsletter input[type="text"],
-.newsletter input[type="email"] {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 500px;
-}
-
-.newsletter input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 300px;
-}
-
-.call-to-action {
-    text-align: center;
-    padding: 20px;
-    background-image: linear-gradient(to top right, #efe52d, #e2d70e, #f5eb77, #fde445);
-    color: #044e5d;
-}
-
-.call-to-action a {
-    color: #044e5d;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.grid img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.grid .grid-item {
-    background: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-}
-
 h1, h2 {
     font-family: 'Georgia', serif;
 }
+
+.furniture-gallery {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.furniture-gallery h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.furniture-grid figure {
+    flex: 0 0 calc(100% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.furniture-grid img {
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.furniture-card {
+    background-color: #fce5e563;
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden; /* Para garantir que a sombra não vaze */
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow interno */
+}
+
+.furniture-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.furniture-info h3 {
+    margin-top: 0;
+    color: #4d0674;
+}
+
+.furniture-image {
+    padding: 20px;
+}
+
+.furniture-image img {
+
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra na imagem */
+}
+
 
 footer {
     background-image: linear-gradient(to top right, antiquewhite, #f5f2c3, #efeab4, #f7f7dc);
@@ -243,18 +217,5 @@ footer img {
         padding: 10px 0;
         width: 100%;
         text-align: center;
-    }
-
-    .home-hero-message {
-        width: 90%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: 15px;
-        background: rgba(0, 0, 0, 0.5);
-        padding: 10px;
-        border-radius: 10px;
     }
 }

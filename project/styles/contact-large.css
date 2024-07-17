@@ -13,7 +13,7 @@
 
 body {
     text-align: center;
-    background-color: #e3e7bf; /* Secondary Color */
+    background-color: #ffffff; /* Secondary Color */
     color: #044e5d; /* Primary Color */
     margin: 0;
     padding: 0;
@@ -140,65 +140,92 @@ nav a:hover {
     border-radius: 10px;
 }
 
-.newsletter {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.newsletter input[type="text"],
-.newsletter input[type="email"] {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 500px;
-}
-
-.newsletter input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 300px;
-}
-
-.call-to-action {
-    text-align: center;
-    padding: 20px;
-    background-image: linear-gradient(to top right, #efe52d, #e2d70e, #f5eb77, #fde445);
-    color: #044e5d;
-}
-
-.call-to-action a {
-    color: #044e5d;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.grid img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.grid .grid-item {
-    background: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-}
-
 h1, h2 {
     font-family: 'Georgia', serif;
+}
+
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 10px; 
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+fieldset {
+    border-radius: 3%;
+    background-color: #fdffef;
+}
+label {
+    cursor: default;
+}
+
+form input[type="text"],form input[type="email"], form textarea {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.radio-form {
+    display: inline-block;
+    margin-top: 1px;
+    width: auto;
+}
+
+label[for="message"] {
+    display: block;
+    text-align: start;
+}
+
+
+form textarea {
+    margin-left: 4%;
+    resize: none;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #dae4f97c;
+    color: #043e4a;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.3s ease;
+}
+
+form button:hover {
+    color: #bd4b4b;
 }
 
 footer {
@@ -257,4 +284,10 @@ footer img {
         padding: 10px;
         border-radius: 10px;
     }
+
+    .map-container {
+        width: 200px;
+        height: 450px;
+    }
+
 }
