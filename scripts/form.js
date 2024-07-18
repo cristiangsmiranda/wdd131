@@ -43,16 +43,17 @@ const products = [
     }
 ];
 
-const productSelect = document.getElementById("productSelect");
+document.addEventListener('DOMContentLoaded', (event) => {
+    populateProductOptions();
+});
 
 function populateProductOptions() {
-    // Adiciona uma opção inicial que não é selecionável pelo usuário
     const placeholderOption = document.createElement("option");
     placeholderOption.value = "";
     placeholderOption.textContent = "Choose a Product ...";
     placeholderOption.disabled = true;
-    placeholderOption.selected = true; // Seleciona por padrão
-    placeholderOption.hidden = true; // Oculta a opção no menu
+    placeholderOption.selected = true;
+    placeholderOption.hidden = true;
 
     productSelect.appendChild(placeholderOption);
 
@@ -64,7 +65,12 @@ function populateProductOptions() {
     });
 }
 
-populateProductOptions();
+document.querySelector('form').addEventListener('submit', function(event) {
+    if (!productSelect.value) {
+        event.preventDefault();
+        alert('Please select a product.');
+    }
+});
 
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
