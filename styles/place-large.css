@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #4caf50;
+    --primary-color: #2d7830;
     --secondary-color: #b7efff; 
 }
 
@@ -60,7 +60,7 @@ header h1 {
 
     h2 {
         background-color: var(--primary-color);
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 10px;
         border-radius: 5px;
     }
