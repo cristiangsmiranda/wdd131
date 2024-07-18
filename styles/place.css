@@ -107,3 +107,14 @@ footer {
     text-align: center;
     border-radius: 4px 4px 0 0;
 }
+
+/* Adding rules for SVG on small screens */
+@media screen and (max-width: 999px) {
+    .hero .weather svg {
+        display: block;
+        margin: 0 auto;
+    }
+    .hero::after {
+        display: none;
+    }
+}

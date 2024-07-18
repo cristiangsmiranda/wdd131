@@ -97,6 +97,22 @@ header h1 {
         bottom: 1150px;
         right: 20px;
     }
+
+    /* Adding rules for the emoticon pseudo-element on large screens */
+    .hero .weather svg {
+        display: none;
+        margin: 0 auto;
+    }
+
+    .hero .weather::after {
+        content: '⛅';
+        display: block;
+        margin: 10px auto;
+        font-size: 50px;
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+
 }
 
 footer {
