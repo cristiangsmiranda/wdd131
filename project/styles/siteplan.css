@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 699px) {
+    .menu-button {
+        display: flex;
+    }
+
+    nav.navigation {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-image: linear-gradient(to top right, antiquewhite, #f5f2c3, #efeab4, #f7f7dc);
+        z-index: 999;
+        padding: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .navigation.open {
+        display: flex;
+    }
+
+    .navigation a {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-hero-message {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .newsletter input[type="text"],
+    .newsletter input[type="email"] {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    .newsletter input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 60%;
+    }
+
+}
