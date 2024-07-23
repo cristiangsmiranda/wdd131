@@ -1,0 +1,26 @@
+@media (max-width: 700px) {
+    body {
+        text-align: left;
+    }
+
+    nav.home {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid .grid-item {
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-left h1 {
+        text-align: center;
+    }
+}

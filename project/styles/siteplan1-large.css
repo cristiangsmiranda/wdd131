@@ -1,0 +1,116 @@
+:root {
+    --primary-color: #e3e7bf;
+    --secondary-color: #044e5d;
+    --heading-font: "Georgia", sans-serif;
+    --paragraph-font: "Inter", sans-serif;
+    --nav-background-color: var(--secondary-color);
+    --nav-link-color: #000;
+    --nav-hover-link-color: #fff;
+    --nav-hover-background-color: var(--primary-color);
+}
+
+body {
+    text-align: center;
+    background-color: #e3e7bf; /* Secondary Color */
+    color: #044e5d; /* Primary Color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(to top right, antiquewhite, #f5f2c3, #efeab4, #f7f7dc);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.header-left h1 {
+    font-family: 'Georgia', serif;
+    margin: 0;
+}
+
+nav.home {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav.home .box {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #044e5d;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+    color: #bd4b4b;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid .grid-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #044e5d;
+}
+
+.scenario {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content {
+    margin-top: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to top right, antiquewhite, #f5f2c3, #efeab4, #f7f7dc);
+    color: #044e5d; /* Primary Color */
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
