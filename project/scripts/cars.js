@@ -2,15 +2,15 @@ const cars = [
     {
         Title: "car wrapping",
         imageUrl:
-        "https://cdn.gencraft.com/prod/user/d72117ed-5924-46e2-b495-8bf9a3e37da4/c93aecb6-18c0-4a03-a169-9fe010615bd3/image/image0_0.jpg?Expires=1721783350&Signature=o2SPPRuBufU3bY-zsZEPiKdnItoHiJVNhVd1GkY75UK4zYZfKWvWry1V-VT5RGVYji1kcbTDKjugUaUiRZkiniUcfmu9j2L4qiwmomjfWseBVfLnrkkjZI0DRDD5gTNDVwKk1slNnD56V0CzQqbpATB5~LLm-laGyd4~syLZqyGLz4pG6pA~eSD0O-KRGBUK~aGID850Q4w32dMF~xu7dg4K4GTtCtJumN1JVA9pAeRZPRE1sny-qFgPg0JZ9XjUMiucF-hEfVoX4OdH4REtqRZRizIEsfBUEEwKWOkPQodhvMleCWLCWbPFfRJVyrdPzdkSb9gUt-CH68UGAHC4tA__&Key-Pair-Id=K3RDDB1TZ8BHT8"},
+        "images/car_gray.jpg"},
     {
         Title: "car wrapping",
         imageUrl:
-        "https://cdn.gencraft.com/prod/user/d72117ed-5924-46e2-b495-8bf9a3e37da4/5e06634f-7766-4703-9eb2-03ee6ec4ed16/image/image0_0.jpg?Expires=1721783235&Signature=blrAA-pgjvotMU0R9ZJzpdIDKyOrA7LDPd1ZlbvOk4vEtLW6pFrlwSipL1TAleSLqj8TpI0q~4ZFAG5OO38abf~23F8dDY6VHCcw8UCxB-LJCzmm3POeinLYeDMDn4LVgDLQ4~~FhWtHewGXT3siN-glMJmFKimljFJHrNchcRrlibZaLqG~zrPeSMHypHOwzwCt1s9ujIzAzD3qCO-1BP79SniQnsKnCguxPCjMgpZj0T4CDj994q76Iyi~1bjjImbqVhNyiEPgETNWJvOgOeD1y9a3Ps18atoEHyQMlLoY27qbGjerm~9it-FPGr~ZCBFG7~b6iogQtHUO5lisag__&Key-Pair-Id=K3RDDB1TZ8BHT8"},   
-    {
+        "images/car_red_and_gray.jpg"},
+        {
         Title: "car wrapping",
         imageUrl:
-        "https://cdn.gencraft.com/prod/user/d72117ed-5924-46e2-b495-8bf9a3e37da4/c93aecb6-18c0-4a03-a169-9fe010615bd3/image/image1_0.jpg?Expires=1721783350&Signature=lYw1KX18gwHbasgV2kP6SwZwP~2jPXFONLwSqtnQOdnY-oxUq8LIKcQsvgnbrMV3wKF17kAT5c85dNSBQ79tJHMm4Qdpaw65xlh46h-q18BMrEahSAaK1Irp0fpKJuWvNtCOjr3psPNHGHgHuQaCD-xiTwAmG4rqdylNvdtQvPWlFQsD1D1nKUf6BPJzQc~xG8SjLCvxJYKJKBUaG0Vf0y5QitnSCLkXrNRKBeW3pkWvfbZg2LsXPESFQ9vvLI1gQZqP725Z-wrxaSkDnm6NWz4G6WadXhPSv3hgZ4Yalil1kzMfiI6eIoZeeSzIg5KmN9xIYtXUcNjdbW9x93VblQ__&Key-Pair-Id=K3RDDB1TZ8BHT8"},
+        "images/car_red.jpg"},
     {
         Title: "car wrapping",
         imageUrl:

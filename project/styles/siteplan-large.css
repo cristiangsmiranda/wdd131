@@ -201,6 +201,19 @@ h1, h2 {
     font-family: 'Georgia', serif;
 }
 
+#changeContentButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 16px; /* Ajuste o tamanho da fonte se necessário */
+    text-align: center; /* Alinha o texto no centro */
+    display: inline-block; /* Garante que o botão se comporte como um bloco de linha */
+}
+
 footer {
     background-image: linear-gradient(to top right, antiquewhite, #f5f2c3, #efeab4, #f7f7dc);
     color: #044e5d; /* Primary Color */
